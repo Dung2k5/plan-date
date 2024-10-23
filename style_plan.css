@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #F8C8DC;
+    height: 90vh;
+    min-width: 1550px;
+}
+#header {
+    height: 75px;
+}
+#header > h1{
+    position: absolute;
+    width: max-content;
+    left: 50%;
+    top: 30px;
+	transform: translate(-50%, -50%);
+}
+#div-h3-after-header {
+    height: 50px;
+}
+#div-h3-after-header > h3 {
+    font-size: 25px;
+}
+.padding-left-30px {
+    padding-left: 30px;
+}
+#first-plan {
+    height: max-content;
+    position: relative;
+}
+#first-plan p {
+    font-size: 30px;
+}
+#first-plan ul li {
+    font-size: 25px;
+    margin-top: 15px;
+}
+#mapswrapper {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.plan {
+    list-style: decimal;
+}
